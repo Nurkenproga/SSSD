@@ -30,7 +30,7 @@ if origins:
         allow_headers=["Authorization", "Content-Type"],
     )
     log.info("CORS enabled for origins: %s", origins)
-else:
+else:ь
     log.info("CORS disabled (no ALLOWED_ORIGINS configured)")
 
 SECRET_KEY = os.environ.get("API_SECRET")  # set via .env or secrets manager
