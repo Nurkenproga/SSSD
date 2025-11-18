@@ -1,4 +1,5 @@
 {
-   "env": "development",
-   "owner": "pyro"
+    "env": "development",
+    "owner": "pyro",
+    "notes": "Do not put secrets here; use .env or a secrets manager"
   }
